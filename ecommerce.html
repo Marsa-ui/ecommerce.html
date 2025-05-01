@@ -9,23 +9,28 @@
 <body>
 
   <header>
-    <h1>Vetrina Computer</h1>
-    <div class="filtri">
-      <select id="filtroMarca">
-        <option value="">Tutte le Marche</option>
-      </select>
-      <select id="filtroCategoria">
-        <option value="">Tutte le Categorie</option>
-      </select>
+    <div class="container header-content">
+      <h1 class="logo">💻 Vetrina Computer</h1>
+      <div class="filtri">
+        <select id="filtroMarca">
+          <option value="">Tutte le Marche</option>
+        </select>
+        <select id="filtroCategoria">
+          <option value="">Tutte le Categorie</option>
+        </select>
+      </div>
     </div>
   </header>
 
-  <main>
+  <main class="container">
     <div id="grigliaProdotti" class="griglia"></div>
   </main>
 
   <footer>
-    <p>&copy; 2025 Vetrina Computer. Contatti: info@vetrinacomputer.it | +39 012 345 6789</p>
+    <div class="container">
+      <p>&copy; 2025 Vetrina Computer | <a href="mailto:info@vetrinacomputer.it">info@vetrinacomputer.it</a> | +39 012 345 6789</p>
+      <p><a href="#">Termini & Condizioni</a> | <a href="#">Privacy</a></p>
+    </div>
   </footer>
 
   <script src="ecommerce.js"></script>
