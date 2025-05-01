@@ -1,0 +1,30 @@
+{
+    "categoria": "Computer",
+    "prodotti": [
+      {
+        "nome": "MacBook Pro M2",
+        "marca": "Apple",
+        "categoria": "laptop",
+        "prezzo": "1899",
+        "immagine": "img/macbook.jpg",
+        "descrizione": "Laptop potente con chip M2 per creativi e professionisti."
+      },
+      {
+        "nome": "Lenovo ThinkCentre M70q",
+        "marca": "Lenovo",
+        "categoria": "desktop",
+        "prezzo": "699",
+        "immagine": "img/lenovo.jpg",
+        "descrizione": "Mini PC ideale per ufficio e produttività quotidiana."
+      },
+      {
+        "nome": "HP Z2 G5 Workstation",
+        "marca": "HP",
+        "categoria": "workstation",
+        "prezzo": "1499",
+        "immagine": "img/hp-z2.jpg",
+        "descrizione": "Potente workstation per carichi di lavoro intensivi."
+      }
+    ]
+  }
+  
